@@ -1,5 +1,10 @@
 ﻿# sonarqube-report-downloader
 
+## Introduction
+
+This python script will download your SonarQube vulnerability SAST report as a json file. This script works for both Sonarcloud (SaaS) and SonarQube (on-premise). 
+
+
 ## Required environment variables
 
 ### `SONARQUBE_HOST_URL`
