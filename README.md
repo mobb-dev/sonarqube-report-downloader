@@ -2,23 +2,23 @@
 
 ## Required environment variables
 
-`SONARQUBE_HOST_URL`
+### `SONARQUBE_HOST_URL`
 Example values: `https://sonarcloud.io` or `http://localhost:9000`
 
-`SONARQUBE_TOKEN`
+### `SONARQUBE_TOKEN`
 Generate this token at by following the instruction [here](https://docs.sonarsource.com/sonarqube/9.8/user-guide/user-account/generating-and-using-tokens/#generating-a-token)
 
-`SONARQUBE_ORG`
+### `SONARQUBE_ORG`
 Your Sonarcloud Org ID. If you are using SonarQube, enter `none`
 
-`SONARQUBE_PROJECT`
+### `SONARQUBE_PROJECT`
 Your Sonarqube project key
 
-`BRANCH`
+### `BRANCH`
 The branch name. 
 For example: `main`
 
-`REPORT_PATH`
+### `REPORT_PATH`
 Name of the output report
 For example: `sonar_report.json`
 
