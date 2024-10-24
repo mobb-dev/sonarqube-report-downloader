@@ -4,6 +4,11 @@
 
 This python script will download your SonarQube vulnerability SAST report as a json file. This script works for both Sonarcloud (SaaS) and SonarQube (on-premise). 
 
+## Pre-Requisites
+
+* You must have Python installed in your environment. If you don't have Python installed, please do so by visiting the Python download site [here](https://www.python.org/downloads/).
+* You will need to run the script via your terminal or command prompt. 
+
 
 ## Required environment variables
 
