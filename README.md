@@ -25,7 +25,7 @@ Name of the output report
 For example: `sonar_report.json`
 
 
-Example command to download a report tied to a branch:
+## Sample command to download a report tied to a branch:
 ```
 SONARQUBE_HOST_URL=https://sonarcloud.io \
 SONARQUBE_TOKEN=XXX \
@@ -36,7 +36,7 @@ REPORT_PATH=sonar_report.json \
 python sonarqube_download_report.py
 ```
 
-Example command to download a report tied to a PR:
+## Sample command to download a report tied to a PR:
 ```
 SONARQUBE_HOST_URL=https://sonarcloud.io \
 SONARQUBE_TOKEN=XXX \
