@@ -28,6 +28,7 @@ Name of the output report
 For example: `sonar_report.json`
 
 
+
 ## Sample command to download a report tied to a branch:
 ```
 SONARQUBE_HOST_URL=https://sonarcloud.io \
@@ -49,3 +50,16 @@ PULL_REQUEST_ID=13 \
 REPORT_PATH=sonar_report.json \
 python sonarqube_download_report.py
 ```
+
+## Sample command to download a SAST report from SonarQube (on-premise):
+```
+SONARQUBE_HOST_URL=http://local-ubuntu-vm:9000 \
+SONARQUBE_TOKEN=XXX \
+SONARQUBE_ORG=none \
+SONARQUBE_PROJECT=webgoat-local \
+BRANCH=main \
+REPORT_PATH=sonar_report.json \
+python sonarqube_download_report.py
+```
+
+
