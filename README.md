@@ -3,9 +3,7 @@
 ## Required environment variables
 
 `SONARQUBE_HOST_URL`
-Example values: 
-`https://sonarcloud.io`
-`http://localhost:9000`
+Example values: `https://sonarcloud.io` or `http://localhost:9000`
 
 `SONARQUBE_TOKEN`
 Generate this token at by following the instruction [here](https://docs.sonarsource.com/sonarqube/9.8/user-guide/user-account/generating-and-using-tokens/#generating-a-token)
