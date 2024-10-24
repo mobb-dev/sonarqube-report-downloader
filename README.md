@@ -1,5 +1,30 @@
 ﻿# sonarqube-report-downloader
 
+## Required environment variables
+
+`SONARQUBE_HOST_URL`
+Example values: 
+`https://sonarcloud.io`
+`http://localhost:9000`
+
+`SONARQUBE_TOKEN`
+Generate this token at by following the instruction [here](https://docs.sonarsource.com/sonarqube/9.8/user-guide/user-account/generating-and-using-tokens/#generating-a-token)
+
+`SONARQUBE_ORG`
+Your Sonarcloud Org ID. If you are using SonarQube, enter `none`
+
+`SONARQUBE_PROJECT`
+Your Sonarqube project key
+
+`BRANCH`
+The branch name. 
+For example: `main`
+
+`REPORT_PATH`
+Name of the output report
+For example: `sonar_report.json`
+
+
 Example command to download a report tied to a branch:
 ```
 SONARQUBE_HOST_URL=https://sonarcloud.io \
